@@ -16,7 +16,7 @@
         app:textColor="#ff0000"
         app:textSize="5dp"
         app:gravity="left|top"
-        app:maxLines="2"/>
+        app:maxLinesPerItem="2"/>
 
 ```
 
