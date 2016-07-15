@@ -8,15 +8,16 @@
 ## How to use?
 
 ```xml
-<com.metalurgus.longtextview.LongTextView
+<com.metalurgus.longtextview.LongTextView 
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:gravity="left|top"
+        app:maxLinesPerItem="2"
         app:text="@string/long_text"
         app:textColor="#ff0000"
-        app:textSize="5dp"
-        app:gravity="left|top"
-        app:maxLinesPerItem="2"/>
+        app:textSize="5dp" />
 
 ```
 
