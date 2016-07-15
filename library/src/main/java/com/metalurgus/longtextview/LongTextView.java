@@ -22,6 +22,10 @@ import android.widget.TextView;
  * Created by Vlad on 15.07.2016.
  */
 public class LongTextView extends ListView {
+    private static final int DEFAULT_COLOR = Color.BLACK;
+    private static final int DEFAULT_TEXT_SIZE = 15;
+    private static final int DEFAULT_GRAVITY = Gravity.LEFT | Gravity.TOP;
+    private static final int DEFAULT_LINES_PER_ITEM = Gravity.LEFT | Gravity.TOP;
     private int textColor;
     private float textSize;
     private int gravity;
@@ -52,10 +56,10 @@ public class LongTextView extends ListView {
         setDivider(null);
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.LongTextView);
         String text = a.getString(R.styleable.LongTextView_text);
-        int textColor = a.getColor(R.styleable.LongTextView_textColor, Color.BLACK);
-        float textSize = a.getDimensionPixelSize(R.styleable.LongTextView_textSize, 15);
-        int gravity = a.getInt(R.styleable.LongTextView_gravity, Gravity.LEFT | Gravity.TOP);
-        int maxLines = a.getInt(R.styleable.LongTextView_maxLines, 5);
+        int textColor = a.getColor(R.styleable.LongTextView_textColor, DEFAULT_COLOR);
+        float textSize = a.getDimensionPixelSize(R.styleable.LongTextView_textSize, DEFAULT_TEXT_SIZE);
+        int gravity = a.getInt(R.styleable.LongTextView_gravity, DEFAULT_GRAVITY);
+        int maxLines = a.getInt(R.styleable.LongTextView_maxLinesPerItem, DEFAULT_LINES_PER_ITEM);
 
         setTextColor(textColor);
         setTextSize(textSize);

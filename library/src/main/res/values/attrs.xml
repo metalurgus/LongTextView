@@ -40,6 +40,6 @@
             <!-- Push object to the end of its container, not changing its size. -->
             <flag name="end" value="0x00800005" />
         </attr>
-        <attr name="maxLines" format="integer" />
+        <attr name="maxLinesPerItem" format="integer" />
     </declare-styleable>
 </resources>
