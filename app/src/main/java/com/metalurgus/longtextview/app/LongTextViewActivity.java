@@ -11,6 +11,5 @@ public class LongTextViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_longtextview);
         LongTextView longTextView = (LongTextView) findViewById(R.id.view);
-        longTextView.setText(getString(R.string.long_text));
     }
 }
