@@ -1,4 +1,5 @@
-# Very long text support for Android
+# Very long text support for Android 
+[![](https://jitpack.io/v/metalurgus/LongTextView.svg)](https://jitpack.io/#metalurgus/LongTextView)
 
 ## Features
 - split text into multiple parts, shown as list items in ListView
