@@ -6,7 +6,16 @@
 - select text size, color and gravity same way as in a regular `TextView`
 
 ## How to use?
-
+Add dependency (`LongTextView` is available in jitpack.io):
+```
+repositories {
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+    compile 'com.github.metalurgus:LongTextView:1.0'
+}
+```
+In your `layout.xml` file:
 ```xml
 <com.metalurgus.longtextview.LongTextView 
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -20,7 +29,7 @@
         app:textSize="5dp" />
 
 ```
-
+In your `Java` code
 ```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
