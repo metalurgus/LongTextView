@@ -1,5 +1,5 @@
 # Very long text support for Android 
-[![](https://jitpack.io/v/metalurgus/LongTextView.svg)](https://jitpack.io/#metalurgus/LongTextView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LongTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3920)
+[![](https://jitpack.io/v/metalurgus/LongTextView.svg)](https://jitpack.io/#metalurgus/LongTextView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LongTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3920) [![Build Status](https://travis-ci.org/metalurgus/LongTextView.svg?branch=master)](https://travis-ci.org/metalurgus/LongTextView)
 
 ## Features
 - split text into multiple parts, shown as list items in ListView
