@@ -1,5 +1,5 @@
 # Very long text support for Android 
-[![](https://jitpack.io/v/metalurgus/LongTextView.svg)](https://jitpack.io/#metalurgus/LongTextView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LongTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3920) [![Build Status](https://travis-ci.org/metalurgus/LongTextView.svg?branch=master)](https://travis-ci.org/metalurgus/LongTextView)
+[![](https://jitpack.io/v/metalurgus/LongTextView.svg)](https://jitpack.io/#metalurgus/LongTextView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LongTextView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3920) [![Build Status](https://travis-ci.org/metalurgus/LongTextView.svg?branch=master)](https://travis-ci.org/metalurgus/LongTextView) [![License](http://img.shields.io/:license-gpl3-blue.svg?style=flat-square)](http://www.gnu.org/licenses/gpl-3.0.html)
 
 
 ## Features
