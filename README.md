@@ -8,7 +8,7 @@
 - select text size, color and gravity same way as in a regular `TextView`
 
 ## How to use?
-Add dependency (`LongTextView` is available in jitpack.io):
+Add dependency (`LongTextView` is available through jitpack.io):
 ```
 repositories {
     maven { url "https://jitpack.io" }
